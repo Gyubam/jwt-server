@@ -1,6 +1,7 @@
 package com.example.jwtserver.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -11,7 +12,7 @@ public class RestApiController {
         return "<h1>home</h1>";
     }
 
-    @GetMapping("/token")
+    @PostMapping("/token")
     public String token() {
         return "<h1>token</h1>";
     }
