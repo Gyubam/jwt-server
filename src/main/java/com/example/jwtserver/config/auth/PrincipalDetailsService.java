@@ -1,4 +1,4 @@
-package com.example.jwtserver.auth;
+package com.example.jwtserver.config.auth;
 
 import com.example.jwtserver.model.User;
 import com.example.jwtserver.repository.UserRepository;
